@@ -1,7 +1,7 @@
 
 terraform {
   backend "s3" {
-    bucket = "sreeterraformbucket"
+    bucket = "dsftestbucket"
     key    = "myterraform.tfstate"
     region = "us-east-1"
   }
